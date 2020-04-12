@@ -1,28 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:ital@1&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: deepskyblue;
 }
 html {
     font-size: 62.5%;
+    background-color: antiquewhite;
 }
 
 .main-header {
     background-image: url('/img/h1.jpg');
     background-size: cover;
-    padding-bottom: 30px;
     background-position: center;
+    margin-bottom: 50px;
+}
+.logo {
+    display: block;
+    width: 20%;
+    margin: 4rem auto 2rem auto;
+}
+.main-nav li {
+    font-size: 2.5rem;
+    display: inline;
+    padding: 0 3%;
 
 }
-nav {
-    font-size: 2rem;
+.main-nav a {
+    padding: .5rem;
+    color: aqua;
+    display: inline-block;
+    font-weight: bold;
+
 }
-.dates {
-    font-size: 2.5rem;
+.main-nav a:hover {
+    background-color: aliceblue;
+    color: black
+}
+
+.main-nav {
+    text-align: right;
+    font-weight: lighter;
+    border-bottom: 1px solid lightgrey;
+}
+/* .dates {
+    font-size: 4rem;
     text-decoration: underline;
+} */
+/* .music {
+    font-size: 4rem;
+    text-decoration: underline;
+} */
+.gigs {
+    font-size: 1.8rem;
+    padding: 3rem;
 }
+.band-name {
+    font-family: Metal Mania;
+    font-size: 3rem;
+    color: #a88b64;
+    text-shadow: 2px 2px #d5bb99;
+}
+.content-section {
+    margin: 2rem;
+}
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0 .8rem;
+}
+.section-header {
+    font-family: Metal Mania, cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    color: cadetblue;
+    text-shadow: 3px 3px lightgrey;
+    text-align: center;
+}
+.about-band-img {
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin: 1.5rem;
+}
+
 .prod img {
     width: 10rem;
     height: 10rem;
